@@ -18,5 +18,4 @@ For a toy sample, we can download the following datasets.
 -  Real scene text images from ICDAR03, ICDAR13, IIIT5k and SVT:    
 ``` wget http://www.cs.cmu.edu/~yuntiand/evaluation_data.tgz ``` 
 ``` tar zxf evaluation_data.tgz ```
-# Experiment
-code is coming.
+
