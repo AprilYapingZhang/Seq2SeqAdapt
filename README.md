@@ -25,7 +25,7 @@ pip3 install torch==1.2.0 pillow==6.2.1 torchvision==0.4.0 lmdb nltk natsort
    - Real scene text : the union of the training sets [IC13](http://rrc.cvc.uab.es/?ch=2), [IC15](http://rrc.cvc.uab.es/?ch=4), [IIIT](http://cvit.iiit.ac.in/projects/SceneTextUnderstanding/IIIT5K.html), and [SVT](http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset).\
    - Benchmark evaluation scene text datasets : consist of [IIIT](http://cvit.iiit.ac.in/projects/SceneTextUnderstanding/IIIT5K.html), [SVT](http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset), [IC03](http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2003_Robust_Reading_Competitions), [IC13](http://rrc.cvc.uab.es/?ch=2)[3], [IC15](http://rrc.cvc.uab.es/?ch=4),
     [SVTP](http://openaccess.thecvf.com/content_iccv_2013/papers/Phan_Recognizing_Text_with_2013_ICCV_paper.pdf), and [CUTE](http://cs-chan.com/downloads_CUTE80_dataset.html).
-- The prepared handwritten text dataset can be downloaded from [here]()    
+- The prepared handwritten text dataset can be downloaded from [here](https://www.dropbox.com/sh/4a9vrtnshozu929/AAAZucKLtEAUDuOufIRDVPOTa?dl=0)    
     - Handwritten text: [IAM](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)
 
 
