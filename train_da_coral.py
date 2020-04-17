@@ -117,8 +117,6 @@ class trainer(object):
         print(self.optimizer)
 
     def build_model(self, opt):
-        """建立模型"""
-        """DataLoder"""
         print('-' * 80)
 
         """ Define Model """
@@ -160,7 +158,6 @@ class trainer(object):
         if opt.continue_model != '':
             self.load(opt.continue_model)
             print(" [*] Load SUCCESS")
-            # TODO 关于学习率设置问题
             # if opt.decay_flag and start_iter > (opt.num_iter // 2):
             #     self.d_image_opt.param_groups[0]['lr'] -= (opt.lr / (opt.num_iter // 2)) * (
             #             start_iter - opt.num_iter // 2)
@@ -201,7 +198,7 @@ class trainer(object):
                                           target.contiguous().view(-1))
 
             src_local_feature = src_local_feature.view(-1, src_local_feature.shape[-1])
-            # TODO 去除对tar_text 的依赖
+            # TODO 
             tar_preds, tar_global_feature, tar_local_feature = self.model(tar_image,
                                                                           tar_text[:, :-1],
                                                                           is_train=False)
@@ -319,7 +316,7 @@ class trainer(object):
          fp-logwenjian
         :param preds:
         :param labels:
-        :param fp_log: 日志文件指针
+        :param fp_log:
         :return:
         """
         for pred, gt in zip(preds[:5], labels[:5]):
