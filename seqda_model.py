@@ -95,6 +95,6 @@ class Model(nn.Module):
                                      batch_max_length=self.opt.batch_max_length)
 
 
-        return prediction, visual_feature, self.Prediction.context_history,self.Prediction.alpha_history, input, key_points
+        return prediction, visual_feature, self.Prediction.context_history
 
 
