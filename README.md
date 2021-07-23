@@ -64,7 +64,7 @@ pip3 install torch==1.2.0 pillow==6.2.1 torchvision==0.4.0 lmdb nltk natsort
     ```
 
 
-# Citation
+## Citation
 If you use this code for a paper please cite:
 
 ```
