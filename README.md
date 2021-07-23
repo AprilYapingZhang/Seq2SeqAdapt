@@ -64,6 +64,30 @@ pip3 install torch==1.2.0 pillow==6.2.1 torchvision==0.4.0 lmdb nltk natsort
     ```
 
 
+# Citation
+If you use this code for a paper please cite:
+
+```
+@inproceedings{zhang2019sequence,
+  title={Sequence-to-sequence domain adaptation network for robust text image recognition},
+  author={Zhang, Yaping and Nie, Shuai and Liu, Wenju and Xu, Xing and Zhang, Dongxiang and Shen, Heng Tao},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2740--2749},
+  year={2019}
+}
+
+@article{zhang2021robust,
+  title={Robust Text Image Recognition via Adversarial Sequence-to-Sequence Domain Adaptation},
+  author={Zhang, Yaping and Nie, Shuai and Liang, Shan and Liu, Wenju},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={3922--3933},
+  year={2021},
+  publisher={IEEE}
+}
+```
+
+
 ##  Acknowledgement
 
 This implementation has been based on this repository [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)
